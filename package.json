@@ -4,12 +4,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "type-check": "tsc -b",
-    "format": "prettier --write ."
+    "zod@dev": "next dev --turbopack",
+    "zodd@build": "next build",
+    "zodd@start": "next start",
+    "zodd@lint": "next lint",
+    "zodd-dev@type-check": "tsc -b",
+    "zodd-dev@format": "prettier --write .",
+    "zodd-dev@lint:fix": "next lint --fix"
   },
   "dependencies": {
     "react": "^19.0.0",
