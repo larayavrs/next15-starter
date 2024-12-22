@@ -11,7 +11,8 @@
     "zodd-dev@type-check": "tsc -b",
     "zodd-dev@format": "prettier --write .",
     "zodd-dev@lint:fix": "next lint --fix",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "zodd-dev@test": "vitest --reporter=verbose"
   },
   "dependencies": {
     "next": "15.1.0",
@@ -41,7 +42,8 @@
     "prettier": "^3.4.2",
     "prettier-plugin-tailwindcss": "^0.6.9",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^2.1.8"
   },
   "config": {
     "commitizen": {
