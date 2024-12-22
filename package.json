@@ -1,18 +1,19 @@
 {
-  "name": "zodd",
-  "description": "Zodd is the perfect web code editor and community for developers.",
-  "version": "0.1.0",
+  "name": "larayavrs-nextjs-starter",
+  "description": "My starter template using good practices, linting, testing and more for Next.js",
+  "version": "0.0.1",
   "private": true,
+  "author": "Leo (larayavrs) <larayavrs@gmail.com>",
   "scripts": {
-    "zod@dev": "next dev --turbopack",
-    "zodd@build": "next build",
-    "zodd@start": "next start",
-    "zodd@lint": "next lint",
-    "zodd-dev@type-check": "tsc -b",
-    "zodd-dev@format": "prettier --write .",
-    "zodd-dev@lint:fix": "next lint --fix",
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc -b",
+    "format": "prettier --write .",
+    "lint:fix": "next lint --fix",
     "prepare": "husky install",
-    "zodd-dev@test": "vitest --reporter=verbose"
+    "test": "vitest --reporter=verbose"
   },
   "dependencies": {
     "next": "15.1.0",
