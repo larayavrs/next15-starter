@@ -1,7 +1,10 @@
-## Next.js <kbd>v15.1.0</kbd> - Starter Template
-
-Using the best practices and most popular architecture for Next.js starter
-template.
+<div align="center">
+  <img src="assets/repo-hero.png" />
+  <p>
+    Using the best practices and most popular architecture for Next.js starter
+    template.
+  </p>
+</div>
 
 ### Features
 
